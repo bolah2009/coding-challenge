@@ -1,0 +1,49 @@
+{
+  "name": "coding-challenges",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "format": "npx prettier  --write '**/*.{js,json,md,yaml,yml}'",
+    "format:check": "npx prettier  --check '**/*.{js,json,md,yaml,yml}'",
+    "lint": "npx eslint '**/*.js' --fix",
+    "lint:check": "npx eslint '**/*.js'"
+  },
+  "description": "An asynchronous web app with a node server that uses Web API and user data to dynamically update the UI in a News Article Evaluator application.",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsdoc": "^23.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^25.4.0",
+    "prettier": "1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bolah2009/coding-challenges.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Jest",
+    "Algorithm"
+  ],
+  "author": "Bola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bolah2009/coding-challenges/issues"
+  },
+  "homepage": "https://github.com/bolah2009/coding-challenges#readme",
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less)$": "identity-obj-proxy"
+    },
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true,
+    "verbose": true
+  }
+}
