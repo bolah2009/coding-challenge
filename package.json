@@ -12,6 +12,7 @@
   "description": "An asynchronous web app with a node server that uses Web API and user data to dynamically update the UI in a News Article Evaluator application.",
   "dependencies": {},
   "devDependencies": {
+    "@babel/preset-env": "^7.9.6",
     "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-airbnb-base": "^14.0.0",
